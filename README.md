@@ -64,6 +64,7 @@ Este proyecto es una réplica de la página oficial de Nintendo, desarrollada pa
 - [Documentación de Next.js](https://nextjs.org/docs): Documentación oficial de Next.js.
 - [Documentación de Tailwind CSS](https://tailwindcss.com/docs): Documentación oficial de Tailwind CSS.
 - [Heroicons](https://heroicons.com/): Íconos gratuitos diseñados para integrarse con Tailwind CSS.
+- [esrb](https://www.esrb.org/ratings-guide/es/)
 
 ## Contribuciones
 
