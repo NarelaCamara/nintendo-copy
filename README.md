@@ -58,6 +58,13 @@ Este proyecto es una réplica de la página oficial de Nintendo, desarrollada pa
 └── components         # Componentes de UI reutilizables
 ```
 
+## Links Útiles
+
+- [Tailwind CSS Components Cheatsheet](https://www.creative-tim.com/twcomponents/cheatsheet): Un recurso completo para consultar clases de Tailwind CSS.
+- [Documentación de Next.js](https://nextjs.org/docs): Documentación oficial de Next.js.
+- [Documentación de Tailwind CSS](https://tailwindcss.com/docs): Documentación oficial de Tailwind CSS.
+- [Heroicons](https://heroicons.com/): Íconos gratuitos diseñados para integrarse con Tailwind CSS.
+
 ## Contribuciones
 
 Si deseas contribuir para mejorar este clon o agregar nuevas funcionalidades, haz un fork del repositorio y crea un pull request.
