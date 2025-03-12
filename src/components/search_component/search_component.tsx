@@ -12,6 +12,9 @@ const SearchComponent = () => {
         <MagnifyingGlassIcon className="size-6 text-stone-900" />
       </div>
 
+      <p>Search</p>
+      <h3 className="">All categories</h3>
+
       <div
         className="absolute  border-black w-60 m-4 "
         onClick={() => setChangeChevron(!changeChevron)}
