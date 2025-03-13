@@ -6,13 +6,15 @@ import NavigationIcons from "../navigation_icons/navigation_icons";
 
 const Navigation = () => {
   return (
-    <div className="grid grid-cols-3 gap-1 bg-fuchsia-50">
-      <div className="w-40">
-        <Image src={profilePic} alt="Icono nintendo" />
+    <div className=" flex flex-row justify-between bg-slate-400">
+      <div className="flex flex-row">
+        <div className="w-40">
+          <Image src={profilePic} alt="Icono nintendo" />
+        </div>
+
+        <SearchComponent />
       </div>
 
-      <SearchComponent />
-     
       <NavigationIcons />
     </div>
   );
