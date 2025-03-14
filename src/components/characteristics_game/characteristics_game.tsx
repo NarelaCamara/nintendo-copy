@@ -1,17 +1,57 @@
 import React from "react";
 
 const CharacteristicsGame = () => {
-  return (
-    <div className=" bg-slate-400">
-      <div className="flex flex-column justify-around">
-        <p>Release date</p>
-        <p>October 5, 2017</p>
-      </div>
+  const characteristics = [
+    "Release date",
+    "No. of players",
+    "Genre",
+    "Publisher",
+    "Developer",
+    "ESRB rating",
+    "Supported play modes",
+    "Game file size",
+    "Supported languages",
+  ];
 
-      <div className="p-4">
-        <hr className="  h-px my-8 bg-gray-200 border-0  " />
-      </div>
-    </div>
+  const characteristics_ = [
+    "October 5, 2017",
+    "Single System (1)Local wireless (1) Online (1-4)",
+    "Role-playing Simulation",
+    "ConcernedApe",
+    "ConcernedApe",
+    "Everyone 10",
+    "TV mode, Tabletop mode, Handheld mode",
+    "1.6 GB",
+    "English, French, German, Italian, Japanese, Korean, Portuguese, Russian, Simplified Chinese, Spanish, Traditional Chinese",
+  ];
+
+  const unirDosArrays = () => {
+    return characteristics.map((e, i) => {
+      return { text: e, value: characteristics_[i] };
+    });
+  };
+
+  return (
+    <>
+      {unirDosArrays().map(({ text, value }) => {
+        return (
+          <div key={text}>
+            <div className=" flex flex-row flex-nowrap justify-start   p-2">
+              <div className="  w-1/2 ">
+                <p>{text}</p>
+              </div>
+
+              <div className=" w-2/2  ">
+                <p>{value}</p>
+              </div>
+            </div>
+            <div className="m-1">
+              <hr className="h-px  bg-gray-200 border-0 dark:bg-gray-700" />
+            </div>
+          </div>
+        );
+      })}
+    </>
   );
 };
 
